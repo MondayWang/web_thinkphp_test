@@ -1,0 +1,6 @@
+[ 2015-08-14T11:04:08+08:00 ] ERR: (ThinkException) 非法操作:index
+[ 2015-08-14T18:14:23+08:00 ] ERR: (ThinkException) Action:var_dump您所请求的方法不存在！
+[ 2015-08-14T18:14:35+08:00 ] ERR: (ThinkException) Action:var_dump您所请求的方法不存在！
+[ 2015-08-14T18:15:59+08:00 ] ERR: (ThinkException) Action:var_dump您所请求的方法不存在！
+[ 2015-08-14T19:36:21+08:00 ] ERR: (ThinkException) 非法操作:index
+[ 2015-08-14T19:36:33+08:00 ] ERR: (ThinkException) 非法操作:index

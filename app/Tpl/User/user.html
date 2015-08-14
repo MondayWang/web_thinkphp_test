@@ -1,0 +1,52 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<title>用户界面测试</title>
+</head>
+<body>
+用户界面测试<br/>
+<table border="1" align="center" width="500px">
+	
+	<tr>
+	
+		<th>id</th>
+		<th>username</th>
+		<th>sexy</th>
+		<th>操作</th>
+	</tr>
+	<volist id="vo" name="data">
+	
+		<tr>
+		
+			<td>{$vo.id}</td>
+			<td>{$vo.username}</td>
+			<td>{$vo.sexy}</td>
+			<td><a href="/index.php/User/del/id/{$vo.id}">删除</a> | <a href="/index.php/User/update/id/{$vo.id}">修改</a></td>
+		</tr>
+	</volist>
+</table>
+<hr>
+增加用户测试
+<table border="1" align="center" width="500px">
+	
+	<tr>
+
+		<th>username</th>
+		<th>sexy</th>
+		<th>提交</th>
+	</tr>
+	<tr height="30px">
+	
+		<td><input type="text"/></td>
+		<td><input type="text"/></td>
+		<td><input type="button" id="sub" value="提交"/></td>
+	</tr>
+</table>
+	
+<script>
+	
+	
+</script>
+	
+</body>
+</html>
